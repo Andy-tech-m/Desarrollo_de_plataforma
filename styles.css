@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #3c4fa2, #4a0d87);
 }
 
 .login-box {
@@ -80,7 +80,7 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(135deg, #5a67d8, #6b46c1);
+  background: linear-gradient(135deg, #5a67d8, #331776);
   transform: scale(1.05);
 }
 

@@ -1,18 +1,16 @@
 document.getElementById("loginForm").addEventListener("submit", function(e) {
-  e.preventDefault(); // evita que se recargue la página
+  e.preventDefault(); 
 
-  // Usuario y contraseña correctos (puedes cambiarlos)
-  const correctUser = "admin";
+  const correctUser = "andy@siu.com";
   const correctPass = "1234";
 
-  // Valores ingresados
   const user = document.getElementById("username").value;
   const pass = document.getElementById("password").value;
 
-  if (user === correctUser && pass === correctPass) {
-    alert("✅ Bienvenido " + user);
-    // Aquí podrías redirigir a otra página si quieres
-    // window.location.href = "dashboard.html";
+  if (!user.includes("@")) {
+    alert("⚠️ El usuario debe ser un correo electrónico (debe contener '@')");
+  } else if (user === correctUser && pass === correctPass) {
+    alert("✅ Bienvenido ");
   } else {
     alert("❌ Usuario o contraseña incorrectos");
   }
