@@ -1,4 +1,4 @@
-# Sistema de Gestión de Tareas - Proyecto Integrador
+# Sistema de Gestión de Tareas
 
 ## Semana 2: Validación con API Simulada
 
@@ -6,9 +6,10 @@
 Este proyecto es parte de la asignatura "Desarrollo basado en plataformas" y consiste en un sistema de gestión de tareas personales. En esta segunda semana, se ha implementado la validación del formulario de login mediante una API simulada.
 
 ### Características
-- Diseño responsive y accesible
+- Diseño responsive
+- Fácil de navegar
 - Validación de campos en tiempo real
-- Simulación de autenticación con retardo de red
+- Simulación de autenticación
 - Mensajes de error y éxito
 - Opción para recordar usuario
 
@@ -20,30 +21,34 @@ Este proyecto es parte de la asignatura "Desarrollo basado en plataformas" y con
 ### Instalación y Ejecución
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/Andy-tech-m/Desarrollo_de_plataforma.git
+   git clone --branch pablito https://github.com/Andy-tech-m/Desarrollo_de_plataforma.git
+   ```
 2. Navega a la carpeta del proyecto:
-
+```
 cd Desarrollo_de_plataforma
+``` 
 
 3. Abre el archivo index.html en tu navegador.
 
-Estructura del Proyecto
-text
+- Estructura del Proyecto:
+```
 Desarrollo_de_plataforma/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+   │
+   ├── /Web
+   │   ├── index.html
+   │   ├── style.css
+   │   └── script.js
+   └── README.md
+```
 
-Tecnologías Utilizadas
-HTML5
+### Tecnologías Utilizadas
+- HTML5
 
-CSS3
+- CSS3
 
-JavaScript (ES6)
+- JavaScript
 
-Próximos Pasos
+### Próximos Pasos
 Conexión con base de datos MySQL
 
 Implementación de backend con Node.js
